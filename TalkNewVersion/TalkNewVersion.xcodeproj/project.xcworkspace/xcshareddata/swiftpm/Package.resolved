@@ -1,0 +1,24 @@
+{
+  "originHash" : "f47e96cbc17c30060d5f8e7fc17bf0b035311e87b8dbbfb7aa908aa810ebd2d2",
+  "pins" : [
+    {
+      "identity" : "sendbird-calls-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sendbird/sendbird-calls-ios",
+      "state" : {
+        "revision" : "a010d9e2e46f1e0cf05c3d742d079a3cb568fb0d",
+        "version" : "1.10.21"
+      }
+    },
+    {
+      "identity" : "sendbird-webrtc-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sendbird/sendbird-webrtc-ios",
+      "state" : {
+        "revision" : "a736f8e6d0df0e39707e1323fa8f20c0979ee201",
+        "version" : "1.8.1"
+      }
+    }
+  ],
+  "version" : 3
+}

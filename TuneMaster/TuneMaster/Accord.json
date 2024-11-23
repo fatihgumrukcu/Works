@@ -1,0 +1,184 @@
+{
+  "tunings": [
+    {
+      "name": "Standard",
+      "description": "Gitar için en yaygın kullanılan akort düzeni.",
+      "tuning": [
+        {
+          "string": 6,
+          "note": "E2",
+          "frequency": 82.41
+        },
+        {
+          "string": 5,
+          "note": "A2",
+          "frequency": 110
+        },
+        {
+          "string": 4,
+          "note": "D3",
+          "frequency": 146.83
+        },
+        {
+          "string": 3,
+          "note": "G3",
+          "frequency": 196
+        },
+        {
+          "string": 2,
+          "note": "B3",
+          "frequency": 246.94
+        },
+        {
+          "string": 1,
+          "note": "E4",
+          "frequency": 329.63
+        }
+      ]
+    },
+    {
+      "name": "Drop D",
+      "description": "Rock ve metal müzikte yaygın olarak kullanılan bir akort düzeni.",
+      "tuning": [
+        {
+          "string": 6,
+          "note": "D2",
+          "frequency": 73.42
+        },
+        {
+          "string": 5,
+          "note": "A2",
+          "frequency": 110
+        },
+        {
+          "string": 4,
+          "note": "D3",
+          "frequency": 146.83
+        },
+        {
+          "string": 3,
+          "note": "G3",
+          "frequency": 196
+        },
+        {
+          "string": 2,
+          "note": "B3",
+          "frequency": 246.94
+        },
+        {
+          "string": 1,
+          "note": "E4",
+          "frequency": 329.63
+        }
+      ]
+    },
+    {
+      "name": "DADGAD",
+      "description": "Folk ve Kelt müziğinde popüler bir akort düzeni.",
+      "tuning": [
+        {
+          "string": 6,
+          "note": "D2",
+          "frequency": 73.42
+        },
+        {
+          "string": 5,
+          "note": "A2",
+          "frequency": 110
+        },
+        {
+          "string": 4,
+          "note": "D3",
+          "frequency": 146.83
+        },
+        {
+          "string": 3,
+          "note": "G3",
+          "frequency": 196
+        },
+        {
+          "string": 2,
+          "note": "A3",
+          "frequency": 220
+        },
+        {
+          "string": 1,
+          "note": "D4",
+          "frequency": 293.66
+        }
+      ]
+    },
+    {
+      "name": "Open G",
+      "description": "Blues ve slide gitar için kullanılan bir akort düzeni.",
+      "tuning": [
+        {
+          "string": 6,
+          "note": "D2",
+          "frequency": 73.42
+        },
+        {
+          "string": 5,
+          "note": "G2",
+          "frequency": 98
+        },
+        {
+          "string": 4,
+          "note": "D3",
+          "frequency": 146.83
+        },
+        {
+          "string": 3,
+          "note": "G3",
+          "frequency": 196
+        },
+        {
+          "string": 2,
+          "note": "B3",
+          "frequency": 246.94
+        },
+        {
+          "string": 1,
+          "note": "D4",
+          "frequency": 293.66
+        }
+      ]
+    },
+    {
+      "name": "Half-Step Down",
+      "description": "Her teli yarım ses aşağı akort edilmiş düzen.",
+      "tuning": [
+        {
+          "string": 6,
+          "note": "Eb2",
+          "frequency": 77.78
+        },
+        {
+          "string": 5,
+          "note": "Ab2",
+          "frequency": 103.83
+        },
+        {
+          "string": 4,
+          "note": "Db3",
+          "frequency": 138.59
+        },
+        {
+          "string": 3,
+          "note": "Gb3",
+          "frequency": 185
+        },
+        {
+          "string": 2,
+          "note": "Bb3",
+          "frequency": 233.08
+        },
+        {
+          "string": 1,
+          "note": "Eb4",
+          "frequency": 311.13
+        }
+      ]
+    }
+  ]
+}

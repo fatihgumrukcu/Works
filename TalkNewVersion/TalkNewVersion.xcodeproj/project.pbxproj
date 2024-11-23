@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D568C81D2CD81FD400CE9CDD /* AVFAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D568C81B2CD81FD400CE9CDD /* AVFAudio.framework */; };
+		D568C8282CD8233300CE9CDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D568C8272CD8233300CE9CDD /* AVFoundation.framework */; };
+		D56CA8F42CD0E7FD00D58FA0 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56CA8F32CD0E7FD00D58FA0 /* AVKit.framework */; };
+		D57F3F3F2CD01ADD00A14BC3 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57F3F3E2CD01ADD00A14BC3 /* Metal.framework */; };
+		D5ADBCDF2CCD303D00F20299 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ADBCDE2CCD303D00F20299 /* CallKit.framework */; };
+		D5ADBCE12CCD304D00F20299 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ADBCE02CCD304D00F20299 /* PushKit.framework */; };
+		D5F741D92CD7B3FC007C6967 /* SendBirdCalls in Frameworks */ = {isa = PBXBuildFile; productRef = D5F741D82CD7B3FC007C6967 /* SendBirdCalls */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D568C81B2CD81FD400CE9CDD /* AVFAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFAudio.framework; path = System/Library/Frameworks/AVFAudio.framework; sourceTree = SDKROOT; };
+		D568C8272CD8233300CE9CDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D56CA8F32CD0E7FD00D58FA0 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D57F3F3E2CD01ADD00A14BC3 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		D5ADBCDE2CCD303D00F20299 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		D5ADBCE02CCD304D00F20299 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		D5EFCC462CC90DC700B68CDB /* TalkNewVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkNewVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D5EFCC582CC90DC900B68CDB /* Exceptions for "TalkNewVersion" folder in "TalkNewVersion" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D5EFCC452CC90DC700B68CDB /* TalkNewVersion */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D5EFCC482CC90DC700B68CDB /* TalkNewVersion */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D5EFCC582CC90DC900B68CDB /* Exceptions for "TalkNewVersion" folder in "TalkNewVersion" target */,
+			);
+			path = TalkNewVersion;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EFCC432CC90DC700B68CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ADBCDF2CCD303D00F20299 /* CallKit.framework in Frameworks */,
+				D56CA8F42CD0E7FD00D58FA0 /* AVKit.framework in Frameworks */,
+				D568C8282CD8233300CE9CDD /* AVFoundation.framework in Frameworks */,
+				D57F3F3F2CD01ADD00A14BC3 /* Metal.framework in Frameworks */,
+				D568C81D2CD81FD400CE9CDD /* AVFAudio.framework in Frameworks */,
+				D5F741D92CD7B3FC007C6967 /* SendBirdCalls in Frameworks */,
+				D5ADBCE12CCD304D00F20299 /* PushKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5ADBCDD2CCD303D00F20299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D568C8272CD8233300CE9CDD /* AVFoundation.framework */,
+				D568C81B2CD81FD400CE9CDD /* AVFAudio.framework */,
+				D56CA8F32CD0E7FD00D58FA0 /* AVKit.framework */,
+				D57F3F3E2CD01ADD00A14BC3 /* Metal.framework */,
+				D5ADBCE02CCD304D00F20299 /* PushKit.framework */,
+				D5ADBCDE2CCD303D00F20299 /* CallKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EFCC3D2CC90DC700B68CDB = {
+			isa = PBXGroup;
+			children = (
+				D5EFCC482CC90DC700B68CDB /* TalkNewVersion */,
+				D5ADBCDD2CCD303D00F20299 /* Frameworks */,
+				D5EFCC472CC90DC700B68CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EFCC472CC90DC700B68CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFCC462CC90DC700B68CDB /* TalkNewVersion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EFCC452CC90DC700B68CDB /* TalkNewVersion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EFCC592CC90DC900B68CDB /* Build configuration list for PBXNativeTarget "TalkNewVersion" */;
+			buildPhases = (
+				D5EFCC422CC90DC700B68CDB /* Sources */,
+				D5EFCC432CC90DC700B68CDB /* Frameworks */,
+				D5EFCC442CC90DC700B68CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D5EFCC482CC90DC700B68CDB /* TalkNewVersion */,
+			);
+			name = TalkNewVersion;
+			packageProductDependencies = (
+				D5F741D82CD7B3FC007C6967 /* SendBirdCalls */,
+			);
+			productName = TalkNewVersion;
+			productReference = D5EFCC462CC90DC700B68CDB /* TalkNewVersion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EFCC3E2CC90DC700B68CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D5EFCC452CC90DC700B68CDB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = D5EFCC412CC90DC700B68CDB /* Build configuration list for PBXProject "TalkNewVersion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5EFCC3D2CC90DC700B68CDB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D5F741D72CD7B3FC007C6967 /* XCRemoteSwiftPackageReference "sendbird-calls-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D5EFCC472CC90DC700B68CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EFCC452CC90DC700B68CDB /* TalkNewVersion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EFCC442CC90DC700B68CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EFCC422CC90DC700B68CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5EFCC5A2CC90DC900B68CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TalkNewVersion/TalkNewVersion.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VG3766N38N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalkNewVersion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TalkApp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bu uygulama, görüntülü arama yapmak için kameranıza erişim gerektirir.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Bu uygulama, sesli ve görüntülü aramalar için mikrofonunuza erişim gerektirir.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 80.05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihgumrukcu.TalkNewVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = TalkNewVersion;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5EFCC5B2CC90DC900B68CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TalkNewVersion/TalkNewVersion.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = VG3766N38N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalkNewVersion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TalkApp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bu uygulama, görüntülü arama yapmak için kameranıza erişim gerektirir.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Bu uygulama, sesli ve görüntülü aramalar için mikrofonunuza erişim gerektirir.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 80.05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fatihgumrukcu.TalkNewVersion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = TalkNewVersion;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5EFCC5C2CC90DC900B68CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5EFCC5D2CC90DC900B68CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EFCC412CC90DC700B68CDB /* Build configuration list for PBXProject "TalkNewVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EFCC5C2CC90DC900B68CDB /* Debug */,
+				D5EFCC5D2CC90DC900B68CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EFCC592CC90DC900B68CDB /* Build configuration list for PBXNativeTarget "TalkNewVersion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EFCC5A2CC90DC900B68CDB /* Debug */,
+				D5EFCC5B2CC90DC900B68CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5F741D72CD7B3FC007C6967 /* XCRemoteSwiftPackageReference "sendbird-calls-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sendbird/sendbird-calls-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.21;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5F741D82CD7B3FC007C6967 /* SendBirdCalls */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5F741D72CD7B3FC007C6967 /* XCRemoteSwiftPackageReference "sendbird-calls-ios" */;
+			productName = SendBirdCalls;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5EFCC3E2CC90DC700B68CDB /* Project object */;
+}

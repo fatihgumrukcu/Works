@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="BeatBeatApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beatlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Xfu-kz-wbk">
+                                <rect key="frame" x="3" y="275" width="393" height="302"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cyo-4l-fNx">
+                                <rect key="frame" x="0.0" y="59" width="396" height="518"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ng6-jO-kgJ">
+                                <rect key="frame" x="0.0" y="616" width="393" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="PiY-u4-Y3x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song : " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynW-v7-hJH">
+                                <rect key="frame" x="0.0" y="686" width="393" height="38"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="tableSeparatorDarkColor"/>
+                        <constraints>
+                            <constraint firstItem="ng6-jO-kgJ" firstAttribute="trailing" secondItem="ynW-v7-hJH" secondAttribute="trailing" id="DQk-bB-SXT"/>
+                            <constraint firstItem="Xfu-kz-wbk" firstAttribute="leading" secondItem="cyo-4l-fNx" secondAttribute="leading" constant="3" id="GfR-WK-lAO"/>
+                            <constraint firstItem="ng6-jO-kgJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IhH-Zb-O8c"/>
+                            <constraint firstItem="cyo-4l-fNx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MoU-oI-pIL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ynW-v7-hJH" secondAttribute="bottom" constant="94" id="Svd-kS-XL6"/>
+                            <constraint firstItem="ng6-jO-kgJ" firstAttribute="leading" secondItem="ynW-v7-hJH" secondAttribute="leading" id="Swe-Yw-U0X"/>
+                            <constraint firstItem="cyo-4l-fNx" firstAttribute="top" secondItem="Xfu-kz-wbk" secondAttribute="top" constant="-216" id="UAZ-Iw-dUH"/>
+                            <constraint firstItem="ng6-jO-kgJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aOz-kN-4JO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xfu-kz-wbk" secondAttribute="trailing" constant="-19" id="dGB-7V-fGD"/>
+                            <constraint firstItem="ng6-jO-kgJ" firstAttribute="top" secondItem="Xfu-kz-wbk" secondAttribute="bottom" constant="39" id="hOP-gb-KmD"/>
+                            <constraint firstItem="ynW-v7-hJH" firstAttribute="top" secondItem="ng6-jO-kgJ" secondAttribute="bottom" constant="28" id="jgo-m3-1ly"/>
+                            <constraint firstItem="cyo-4l-fNx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-108" id="mnd-JS-1PA"/>
+                            <constraint firstItem="cyo-4l-fNx" firstAttribute="bottom" secondItem="Xfu-kz-wbk" secondAttribute="bottom" id="tu5-VG-TZN"/>
+                            <constraint firstItem="cyo-4l-fNx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wBc-yI-6Dp"/>
+                            <constraint firstItem="cyo-4l-fNx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="3" id="wNy-62-30F"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ZHk-Mn-8de"/>
+                    <navigationItem key="navigationItem" id="WrO-id-7Y7"/>
+                    <connections>
+                        <outlet property="artistImageView" destination="cyo-4l-fNx" id="DYG-Er-1UC"/>
+                        <outlet property="artistLabel" destination="ng6-jO-kgJ" id="3ej-Jy-MKk"/>
+                        <outlet property="logoImageView" destination="Xfu-kz-wbk" id="yl9-CM-15l"/>
+                        <outlet property="songTitleLabel" destination="ynW-v7-hJH" id="9Cr-5h-vcg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2904.5801526717555" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beatlogo" width="1024" height="1024"/>
+        <systemColor name="tableSeparatorDarkColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
