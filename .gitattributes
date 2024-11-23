@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Main[[:space:]]13.41.56[[:space:]]13.41.56.storyboard filter=lfs diff=lfs merge=lfs -text
+WeatherAppClone/WeatherApp/WeatherApp/Base.lproj/Main[[:space:]]13.41.56[[:space:]]13.41.56.storyboard filter=lfs diff=lfs merge=lfs -text
