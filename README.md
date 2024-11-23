@@ -38,5 +38,4 @@ Projelerime göz atmaktan veya herhangi bir sorunuz ya da öneriniz varsa beniml
 ## Contact / İletişim
 
 You can find me on [GitHub](https://github.com/fatihgumrukcu) or reach out via email at **fatih.gmrkc@gmail.com**.  
-Bana [GitHub](https://github.c
 
